@@ -1,0 +1,366 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #24292e;
+  padding-top: 10px;
+}
+
+.leftContent ul,
+.rightContent ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.leftContent ul li,
+.rightContent ul li {
+  display: inline;
+  padding: 10px;
+  float: left;
+  color: aliceblue;
+}
+
+.leftContent ul li img {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.leftContent ul li,
+.rightContent ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.rightContent ul li input {
+  width: auto;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #404448;
+  color: #24292e;
+  padding: 3px;
+}
+
+.firstPortion {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./images/simple-codelines.svg");
+  background-color: #2b3137;
+
+}
+
+.firstPortion .leftContent h1 {
+  color: white;
+  font-size: 50px;
+  margin: 20%;
+}
+
+.firstPortion .leftContent h6 {
+  color: white;
+  font-size: 20px;
+  margin: 20%;
+}
+
+.firstPortion .rightContent {
+  background-color: #fff;
+  margin: 5% 10%;
+  padding: 2%;
+  border-radius: 5px;
+}
+.firstPortion .rightContent input {
+  border:1px solid black;
+  background-color: #fff;
+  max-width: 100%;
+  min-width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top:5%;
+  margin-bottom:5%;
+  font-size: 25px;
+}
+.firstPortion .rightContent label{
+  font-weight: bold;
+} 
+.firstPortion .rightContent p{
+  font-size: 10px;
+}
+.firstPortion .rightContent button{
+  color: white;
+  background-color: #2ebc4f;
+  outline: none;
+  border: none;
+  padding:10px 100px;
+  border-radius: 2px;
+}
+.thirdPortion{
+  background-image: url("./images/iso-ui.jpg");
+  margin:10%;
+  padding: 10%;
+  border-radius:10px; 
+}
+.thirdPortion  h1{
+  color: white;
+  font-size: 35px;
+ margin-left:10% ;
+}
+.thirdPortion p{
+  color: white;
+  font-size: 20px;
+  margin: 3% 20%;
+  text-align: center;
+}
+.thirdPortion a{
+  text-decoration: none;
+  color: white;
+  margin:3% 40%;
+  border: 1px solid rgba(31, 101, 233, 0.575);
+  padding: 2%;
+  border-radius: 5px;
+}
+.fourthPortion{
+  margin:10%;
+}
+.fourthPortion h4{
+  color: gainsboro;
+  margin-left: 30%;
+}
+.fourthPortion .topImages img{
+  width:auto;
+  height:40px;
+  padding:2%;
+
+}
+.fourthPortion .bottomImages img{
+  width:auto;
+  height: 40px;
+  padding: 2%;
+}
+.fifthPortion{
+  margin:2% 25%;
+}
+.fifthPortion p{
+  text-align: center;
+}
+.fifthPortion h1{
+  font-size: 40px;
+}
+.fifthPortion h6{
+  font-size: 20px;
+  color: gainsboro;
+  text-align: center;
+}
+.fifthPortion a{
+  text-decoration: none;
+  color: rgba(31, 101, 233, 0.575);
+  margin:3% 35%;
+  border: 1px solid rgba(31, 101, 233, 0.575);
+  padding: 2%;
+  border-radius: 5px;
+}
+.sixthportion{
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 10%;
+}
+.sixthportion img{
+  width: 1500px;
+  height: auto;
+}
+.sixthportion h4{
+  font-size:15px;
+  color: #676b6e;
+  font-weight: normal; 
+}
+.sixthportion p{
+  color: #676b6e;
+  font-size: 10px;
+}
+.sixthportion a{
+  color: #0366d6;
+}
+.seventhPortion{
+  display: flex;
+  flex-direction: column;
+}
+.seventhPortion h4{
+margin:2% 20%;
+font-size: 15px;
+color:#676b6e;
+letter-spacing: 2px;
+}
+.seventhPortion div{
+  display: flex;
+  justify-content: space-around;
+}
+.seventhPortion img{
+  width: 300px;
+}
+.eightPortion #top{
+color: #676b6e;
+margin:2% 40%;
+
+}
+.eightPortion h1{
+  color: #0366d6;
+  margin:1% 25%;
+  font-size: 50px;
+}
+.eightPortion h2{
+margin: 2% 20%;
+color: #676b6e;
+font-weight: normal;
+text-align: center;
+}
+.eightPortion #link{
+  margin-left:40%;
+  color: #0366d6;
+  border: 1px solid #0366d6;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+.eightPortionInner{
+  display: flex;
+  justify-content: space-around;
+}
+.eightPortionInner img{
+  width: 400px;
+  height: 200px;
+  margin-right:50%; 
+}
+.eightPortionInner h4 p{
+  margin-left:50%;
+  text-align: center; 
+
+}
+.innereightPortion{
+  border: 1px solid wheat;
+  margin: 4% 30%;
+  padding: 1%;
+  border-radius: 4px;
+}
+.innereightPortion a{
+  color: #0366d6;
+}
+.ninthPortion{
+  margin:3% 30%;
+  text-align: center;
+
+}
+.ninthPortion a{
+  margin: 10% 20%;
+  color: #0366d6;
+  border: 1px solid #0366d6;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+.innerNinthPortion{
+  display: flex;
+}
+.innerNinthPortion img{
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  padding: 5%;
+}
+.innerNinthPortion p{
+  text-align: center;
+}
+.innerNinthPortion #link2{
+  border: none;
+  color: #0366d6;
+}
+.tenthPortion{
+  margin:3% 30%;
+  text-align: center;
+}
+.infoMain{
+  display:flex;
+  
+}
+.infoMain .infoPortion{
+  border: 1px solid wheat;
+  margin: 2% 5%;
+}
+.infoMain .infoPortion img{
+  width: 200px;
+  height: 200px;
+}
+.infoMain .infoPortion p{
+ font-size: 10px;
+}
+.eleventhPortion{
+  margin:3% 30%;
+  text-align: center;
+  color:gray;
+}
+.thirteenPortion{
+  background-color: #24292e;
+  color: white;
+  padding-left: 5%;
+}
+.thirteenPortion h1{
+  text-align: center;
+  font-weight: normal;
+  margin: 5% 20%;
+  padding-top:3%;
+}
+.innerThirteen{
+  display:flex;
+  justify-content: space-evenly;
+}
+.innerThirteen input{
+width: 250px;
+height: 30px;
+border-radius: 5px;
+border: none;
+outline-style: none;
+}
+.innerThirteen button{
+  color: white;
+  background-color: #2ebc4f;
+  outline: none;
+  border: none;
+  padding:10px 80px;
+  border-radius: 2px;
+  margin-top:20px;
+}
+.thirteenPortion p{
+  color: #676b6e;
+  font-size: 10px;
+  padding: 10%;
+  text-align: center; 
+}
+.thirteenPortion p a{
+  color: white;
+  text-decoration: none;
+}
+.fourteenPortion{
+  display: flex;
+  justify-content: space-between;
+  margin:5%;
+}
+.fourteenPortion table{
+ color: gray;
+}
+.footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer ul li{
+  display: inline;
+  margin:1%;
+  padding: 4px;
+  font-size: 10px;
+  color: #676b6e;
+}
